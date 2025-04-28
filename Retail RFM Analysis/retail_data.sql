@@ -1,16 +1,16 @@
 CREATE TABLE retail (
-    TransactionID	INT,
-    PurchaseDate	DATE,
-    CustomerID	VARCHAR(512),
+    Transaction_ID	INT,
+    Purchase_Date	DATE,
+    Customer_ID	VARCHAR(512),
     Gender	VARCHAR(512),
     Age	INT,
-    ProductCategory	VARCHAR(512),
+    Product_Category	VARCHAR(512),
     Quantity	INT,
     Price_per_Unit	INT,
     Total_Amount	INT
 );
 
-INSERT INTO retail (TransactionID, PurchaseDate, CustomerID, Gender, Age, ProductCategory, Quantity, Price_per_Unit, Total_Amount) VALUES
+INSERT INTO retail (Transaction_ID, Purchase_Date, Customer_ID, Gender, Age, Product_Category, Quantity, Price_per_Unit, Total_Amount) VALUES
 	('1', '2023-11-24', 'CUST001', 'Male', '34', 'Beauty', '3', '50', '150'),
 	('2', '2023-02-27', 'CUST002', 'Female', '26', 'Clothing', '2', '500', '1000'),
 	('3', '2023-01-13', 'CUST003', 'Male', '50', 'Electronics', '1', '30', '30'),
